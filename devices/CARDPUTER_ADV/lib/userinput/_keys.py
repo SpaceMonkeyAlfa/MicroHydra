@@ -6,7 +6,7 @@ KC_SHIFT = const(61)
 KC_FN = const(65)
 
 """
-The keymaps here looks very different from the one's used by other PR's. 
+The keymaps here looks very different from the one's used by other PR's by CarnitaShredder and TheOddCell that implement the I2C keyboard. 
 This is because I've tried to base my I2C processing logic on the M5Stack Cardputer library for Arduino IDE
 """
 
