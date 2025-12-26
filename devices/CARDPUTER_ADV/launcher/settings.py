@@ -1,7 +1,7 @@
 """
 While testing the _keys changes I made, I noticed that the "settings" app seemed to crash due to memory getting filled up. 
 I guess I2C stuff is more memory intensive than the old methods of getting keyboard input.
-Apps crashing / general instability seems to also be an issue with the other PR's. I tested a couple other apps from GetApps with my modified _keys.py file and they seemed to work fine.
+Apps crashing / general instability seems to also be an issue with the other PR's by TheOddCell and carnitashredder. I tested a couple other apps from GetApps with my modified _keys.py file and they seemed to work fine.
 My guess is that settings is more memory intenisve thanks to its more complex menus.
 
 This settings script isn't really "production ready", but has some tweaks to memory management that got the settings app working for me. 
